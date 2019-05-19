@@ -18,5 +18,19 @@ alias phpqawp='docker run --init -it --rm -v $(pwd):/project -v $(pwd)/tmp-phpqa
 ## Use it
 
 ```
+phpqawp phpcs --standard=WordPress <filename>
+```
+
+
+```
 phpqawp phpcs --standard=WordPress-Core <filename>
+```
+
+```
+phpqawp phpcs --standard=WordPress-Docs <filename>
+```
+
+
+```
+phpqawp phpcs --standard=WordPress-Extra <filename>
 ```
